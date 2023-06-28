@@ -9,9 +9,17 @@ import SwiftUI
 
 struct agenda: View {
     var body: some View {
+        
         NavigationStack {
             VStack {
+                
                 Text("Agenda")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
                 NavigationLink(destination: tasks()) {
                     Text("tasks")
                 }
@@ -21,6 +29,10 @@ struct agenda: View {
                 NavigationLink(destination: welcome()) {
                     Text("back to homepage")
                 }
+                Spacer()
+                Text("e v e r m o r e . ")
+                    .fontWeight(.bold)
+               
             }
         }
     }
