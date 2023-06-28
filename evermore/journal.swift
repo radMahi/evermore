@@ -33,6 +33,7 @@ struct journal: View {
                     Text("excited")
                     
                 }
+                
             }
         }
     }
