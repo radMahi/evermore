@@ -9,10 +9,21 @@ import SwiftUI
 
 struct tasks: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                NavigationLink(destination: scheduling()) {
+                    Text("schedule tasks")
+                }
+                    NavigationLink(destination: welcome()) {
+                        Text("back to homepage")
+                }
+                NavigationLink(destination: agenda()) {
+                    Text("back to agenda")
+                }
+            }
+        }
     }
 }
-
 struct tasks_Previews: PreviewProvider {
     static var previews: some View {
         tasks()

@@ -9,12 +9,28 @@ import SwiftUI
 
 struct welcome: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                NavigationLink(destination: agenda()) {
+                    Text("agenda")
+                    
+                }
+                NavigationLink(destination: journal()) {
+                    Text("journaling")
+                }
+                
+                NavigationLink(destination: pomodoro()) {
+                    Text("pomodoro")
+                    
+                }
+            }
+        }
     }
 }
+    
+    struct welcome_Previews: PreviewProvider {
+        static var previews: some View {
+            welcome()
+        }
+    }
 
-struct welcome_Previews: PreviewProvider {
-    static var previews: some View {
-        welcome()
-    }
-}

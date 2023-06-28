@@ -9,7 +9,16 @@ import SwiftUI
 
 struct pomodoro: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationStack {
+            
+            VStack {
+                NavigationLink(destination: welcome()) {
+                    Text("back to homepage")
+            }
+        }
+
+        }
     }
 }
 

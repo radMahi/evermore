@@ -9,7 +9,17 @@ import SwiftUI
 
 struct events: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                NavigationLink(destination: scheduling()) {
+                    Text("schedule events")
+                }
+                NavigationLink(destination: welcome()) {
+                    Text("back to homepage") }
+            }
+            NavigationLink(destination: agenda()) {
+                Text("back to agenda") }
+        }
     }
 }
 
