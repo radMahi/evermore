@@ -24,13 +24,13 @@ struct journal: View {
                     Text("insecure")
                 }
                 NavigationLink(destination: anxiousJournalDate()) {
-                    Text("anxious")
+                    Text("proud")
                 }
                 NavigationLink(destination: worriedJournalDate()) {
                     Text("worried")
                 }
                 NavigationLink(destination: frustratedJournalDate()) {
-                    Text("frustrated")
+                    Text("excited")
                     
                 }
             }
