@@ -1,5 +1,5 @@
 //
-//  journalDate.swift
+//  insecureJournalDate.swift
 //  evermore
 //
 //  Created by Scholar on 6/28/23.
@@ -7,21 +7,20 @@
 
 import SwiftUI
 
-struct journalDate: View {
+struct insecureJournalDate: View {
     var body: some View {
         NavigationStack {
             VStack {
                 NavigationLink(destination: affirmation()) {
                     Text("save")
                 }
-
             }
         }
     }
 }
 
-struct journalDate_Previews: PreviewProvider {
+struct insecureJournalDate_Previews: PreviewProvider {
     static var previews: some View {
-        journalDate()
+        insecureJournalDate()
     }
 }

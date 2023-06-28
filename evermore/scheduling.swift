@@ -17,6 +17,12 @@ struct scheduling: View {
                 NavigationLink(destination: events()) {
                     Text("back to events")
                 }
+                NavigationLink(destination: welcome()) {
+                    Text("back to homepage")
+                }
+                NavigationLink(destination: agenda()) {
+                    Text("back to agenda")
+                }
             }
         }
     }

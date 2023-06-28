@@ -1,5 +1,5 @@
 //
-//  affirmation.swift
+//  anxiousJournalDate.swift
 //  evermore
 //
 //  Created by Scholar on 6/28/23.
@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct affirmation: View {
+struct anxiousJournalDate: View {
     var body: some View {
         NavigationStack {
             VStack {
-                NavigationLink(destination: welcome()) {
-                    Text("back to homepage")
+                NavigationLink(destination: affirmation()) {
+                    Text("save")
                 }
             }
         }
     }
 }
 
-struct affirmation_Previews: PreviewProvider {
+struct anxiousJournalDate_Previews: PreviewProvider {
     static var previews: some View {
-        affirmation()
+        anxiousJournalDate()
     }
 }

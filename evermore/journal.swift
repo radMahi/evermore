@@ -9,10 +9,34 @@ import SwiftUI
 
 struct journal: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                NavigationLink(destination: happyJournalDate()) {
+                    Text("happy")
+                }
+                NavigationLink(destination: sadJournalDate()) {
+                    Text("sad")
+                }
+                NavigationLink(destination: overwhelmedJournalDate()) {
+                    Text("overwhelmed")
+                }
+                NavigationLink(destination: insecureJournalDate()) {
+                    Text("insecure")
+                }
+                NavigationLink(destination: anxiousJournalDate()) {
+                    Text("anxious")
+                }
+                NavigationLink(destination: worriedJournalDate()) {
+                    Text("worried")
+                }
+                NavigationLink(destination: frustratedJournalDate()) {
+                    Text("frustrated")
+                    
+                }
+            }
+        }
     }
 }
-
 struct journal_Previews: PreviewProvider {
     static var previews: some View {
         journal()
