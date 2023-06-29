@@ -50,7 +50,7 @@ struct ContentView: View {
                             .border(.red, width: CGFloat(wrongPassword))
                         
                             NavigationLink(destination: welcome()) {
-                                Text("login")
+                                Text("Login")
     
                         }
                         .foregroundColor(.black)
