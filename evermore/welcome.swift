@@ -14,7 +14,7 @@ struct welcome: View {
                 
                 Color(red: 126/255, green: 154/255, blue: 132/255_)
                     .ignoresSafeArea()
-       
+    //hi
                 Image("pineTree")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
