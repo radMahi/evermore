@@ -15,13 +15,12 @@ struct agenda: View {
                 Image("tree")
                 
                 
-                
-                
+                Spacer() .frame(height:50)
                 
                 VStack {
     
                     Text("a g e n d a")
-                        .font(. largeTitle)
+                        .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
                             .multilineTextAlignment(.center)
