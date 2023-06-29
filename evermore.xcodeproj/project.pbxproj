@@ -12,7 +12,6 @@
 		BD89764A2A4C8E8700238BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8976492A4C8E8700238BCE /* Assets.xcassets */; };
 		BD89764D2A4C8E8700238BCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD89764C2A4C8E8700238BCE /* Preview Assets.xcassets */; };
 		BD8976542A4C8F8D00238BCE /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976532A4C8F8D00238BCE /* welcome.swift */; };
-		BD8976562A4C90B300238BCE /* pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976552A4C90B300238BCE /* pomodoro.swift */; };
 		BD8976582A4C90C600238BCE /* agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976572A4C90C600238BCE /* agenda.swift */; };
 		BD89765A2A4C912800238BCE /* tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976592A4C912800238BCE /* tasks.swift */; };
 		BD89765C2A4C913100238BCE /* events.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89765B2A4C913100238BCE /* events.swift */; };
@@ -36,7 +35,6 @@
 		BD8976492A4C8E8700238BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD89764C2A4C8E8700238BCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD8976532A4C8F8D00238BCE /* welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
-		BD8976552A4C90B300238BCE /* pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoro.swift; sourceTree = "<group>"; };
 		BD8976572A4C90C600238BCE /* agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agenda.swift; sourceTree = "<group>"; };
 		BD8976592A4C912800238BCE /* tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasks.swift; sourceTree = "<group>"; };
 		BD89765B2A4C913100238BCE /* events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events.swift; sourceTree = "<group>"; };
@@ -86,9 +84,8 @@
 				BD8976452A4C8E8600238BCE /* evermoreApp.swift */,
 				BD8976472A4C8E8600238BCE /* evermore.swift */,
 				BD8976532A4C8F8D00238BCE /* welcome.swift */,
-				BD8976552A4C90B300238BCE /* pomodoro.swift */,
-				BD8976572A4C90C600238BCE /* agenda.swift */,
 				BD8976592A4C912800238BCE /* tasks.swift */,
+				BD8976572A4C90C600238BCE /* agenda.swift */,
 				BD89765B2A4C913100238BCE /* events.swift */,
 				BD89765D2A4C914100238BCE /* scheduling.swift */,
 				BD89765F2A4C914C00238BCE /* journal.swift */,
@@ -185,7 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8976562A4C90B300238BCE /* pomodoro.swift in Sources */,
 				BD8976722A4CC76400238BCE /* frustratedJournalDate.swift in Sources */,
 				BD8976682A4CC70000238BCE /* sadJournalDate.swift in Sources */,
 				BD89765E2A4C914100238BCE /* scheduling.swift in Sources */,
