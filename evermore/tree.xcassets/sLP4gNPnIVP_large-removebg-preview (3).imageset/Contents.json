@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "sLP4gNPnIVP_large-removebg-preview (3).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "79cb6e7fad486e5174671b3e0c3b5ffc.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

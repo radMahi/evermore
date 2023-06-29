@@ -9,30 +9,35 @@ import SwiftUI
 
 struct agenda: View {
     var body: some View {
-        
         NavigationStack {
-            VStack {
+            ZStack {
+                Color(red: 126/255, green: 154/255, blue: 132/255) .ignoresSafeArea()
                 
-                Text("Agenda")
-                    .font(.title)
-                    .fontWeight(.bold)
-                Spacer()
-                Spacer()
-                Spacer()
-                Spacer()
-                NavigationLink(destination: tasks()) {
-                    Text("tasks")
+                
+                
+                VStack {
+                    
+                    Text("Agenda")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    NavigationLink(destination: tasks()) {
+                        Text("tasks")
+                    }
+                    NavigationLink(destination: events()) {
+                        Text("events")
+                    }
+                    NavigationLink(destination: welcome()) {
+                        Text("back to homepage")
+                    }
+                    Spacer()
+                    Text("e v e r m o r e . ")
+                        .fontWeight(.bold)
+                    
                 }
-                NavigationLink(destination: events()) {
-                    Text("events")
-                }
-                NavigationLink(destination: welcome()) {
-                    Text("back to homepage")
-                }
-                Spacer()
-                Text("e v e r m o r e . ")
-                    .fontWeight(.bold)
-               
             }
         }
     }
