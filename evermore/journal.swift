@@ -10,27 +10,83 @@ import SwiftUI
 struct journal: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                NavigationLink(destination: happyJournalDate()) {
-                    Text("happy")
+            
+            ZStack {
+                Spacer()
+                
+                
+                Color (red: 126/255, green: 154/255, blue: 132/255).ignoresSafeArea()
+                
+                
+                
+                VStack {
+                    
+                    Text("I am feeling...")
+                        .font(.largeTitle)
+                        .foregroundColor(Color.white)
+                        .fontWeight(.bold)
+                    
+                    NavigationLink(destination: happyJournalDate()) {
+                        Text("happy")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                    NavigationLink(destination: sadJournalDate()) {
+                        Text("sad")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                    NavigationLink(destination: overwhelmedJournalDate()) {
+                        Text("overwhelmed")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                    NavigationLink(destination: insecureJournalDate()) {
+                        Text("insecure")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                    //proud navigation
+                    NavigationLink(destination: anxiousJournalDate()) {
+                        Text("proud")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                        
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                    NavigationLink(destination: worriedJournalDate()) {
+                        Text("worried")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                    NavigationLink(destination: frustratedJournalDate()) {
+                        Text("excited")
+                            .font(.title)
+                            .foregroundColor(Color.white)
                 }
-                NavigationLink(destination: sadJournalDate()) {
-                    Text("sad")
-                }
-                NavigationLink(destination: overwhelmedJournalDate()) {
-                    Text("overwhelmed")
-                }
-                NavigationLink(destination: insecureJournalDate()) {
-                    Text("insecure")
-                }
-                NavigationLink(destination: anxiousJournalDate()) {
-                    Text("proud")
-                }
-                NavigationLink(destination: worriedJournalDate()) {
-                    Text("worried")
-                }
-                NavigationLink(destination: frustratedJournalDate()) {
-                    Text("excited")
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 160/225, green: 182/225, blue: 160/225))
+                    
+                //self.randomPrompt = pickStudent()
+                
+    
                     
                 }
                 
